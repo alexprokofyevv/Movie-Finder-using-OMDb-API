@@ -90,7 +90,7 @@ h1 {
   box-shadow: 5px 5px 7px #1c1d1f, -5px -5px 7px #222527;
 } */
 
-.empty {
+.empty, #emptyTag {
   width: 100%;
   margin-top: 3rem;
 
@@ -99,10 +99,11 @@ h1 {
   align-items: center;
 }
 
-.empty h2 {
+.empty h2, #emptyTag {
   font-size: 1.25rem;
   color: #f9d3b4;
   font-family: var(--font-raleway);
+  font-weight: bold;
 }
 
 .container {
