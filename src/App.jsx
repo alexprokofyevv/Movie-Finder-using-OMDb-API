@@ -19,7 +19,7 @@ const searchMovie = async (title) => {
     const data = await response.json()
     setMovies(data.Search)
     if(title.length > 0){
-       document.getElementById("emptyLabel").innerHTML = "No result found!"
+       document.getElementById("emptyLabel").innerHTML = "No results found!"
     }
     else if(title == "") {
         document.getElementById("emptyLabel").innerHTML = "Search for a movie!"

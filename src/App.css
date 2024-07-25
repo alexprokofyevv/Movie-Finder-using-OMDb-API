@@ -170,7 +170,7 @@ h1 {
 }
 
 .movie:hover div:nth-of-type(3) {
-  background-color: transparent;
+  background-color: #343739a8;
 }
 
 .movie:hover div:nth-of-type(1) {
