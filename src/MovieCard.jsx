@@ -8,7 +8,7 @@ export default function MovieCard({movie}) {
         </div>
         <div>
             <img 
-                src={movie.Poster !== "N/A" ? movie.Poster : "https://placehold.co/300x444?text=Movie+Poster"} 
+                src={movie.Poster !== "N/A" ? movie.Poster : "https://placehold.co/300x444/2e2e2e/6e6e6e/?text=Missing+Poster"} 
                 alt={movie.Title} 
             />
         </div>
