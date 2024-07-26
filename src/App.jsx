@@ -21,7 +21,7 @@ const searchMovie = async (title) => {
     if(title.length > 0){
        document.getElementById("emptyLabel").innerHTML = "No results found!"
     }
-    else if(title == "") {
+    else if(title === "") {
         document.getElementById("emptyLabel").innerHTML = "Search for a movie!"
     }
 }
